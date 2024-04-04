@@ -99,7 +99,7 @@ export const PlaceOrder = () => {
 
         <p className="mb-5">
           {/* Disclaimer */}
-          <span className="text-xs">Al hacer click en  "Colocar orden", aceptas nuestros <a className="underline" href="#">terminos y condiciones</a></span>
+          <span className="text-xs">Al hacer click en  &quot;Colocar orden&ldquo;, aceptas nuestros <a className="underline" href="#">terminos y condiciones</a></span>
         </p>
 
         <p className="text-red-500">{errrorMessage}</p>

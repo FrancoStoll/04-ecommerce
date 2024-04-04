@@ -33,7 +33,7 @@ export const paypalCheckPayment = async (paypalTrasactionId: string) => {
     }
   }
 
-  console.log({ purchase_units, status })
+  
   // Realizar la actualizacion en nuestra base de datos
 
   try {
